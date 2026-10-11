@@ -1,0 +1,1581 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO & Metadata -->
+  <title>Designterio Pvt. Ltd | Luxury Interior Architecture & Bespoke Living</title>
+  <meta name="description"
+    content="Designterio Pvt. Ltd is a premier interior architecture studio crafting timeless bespoke residential and commercial spaces. Turnkey execution, German-engineered joinery, and haute couture spaces.">
+  <meta name="keywords"
+    content="interior designer, luxury interiors, turnkey interior design, modular kitchen, bespoke furniture, penthouse interior, architecture studio, Designterio">
+  <meta name="author" content="Designterio Pvt. Ltd">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Designterio Pvt. Ltd | Haute Architectural Interiors">
+  <meta property="og:description"
+    content="Transforming bare spaces into timeless architectural masterpieces. Explore our portfolio and get an instant turnkey interior estimate.">
+  <meta property="og:image" content="assets/images/hero-penthouse.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Syne:wght@500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- =========================================================================
+       1. HEADER & NAVIGATION (LUXURY ATELIER EDITION)
+       ========================================================================= -->
+  <header class="header" id="header">
+    <div class="container">
+      <nav class="nav-container">
+        <!-- Brand Identity -->
+        <a href="#home" class="brand-logo" aria-label="Designterio Pvt Ltd Home">
+          <div class="brand-symbol"></div>
+          <div class="brand-text">
+            <span class="brand-title">DESIGNTERIO</span>
+            <span class="brand-sub">PVT. LTD • LUCKNOW</span>
+          </div>
+        </a>
+
+        <!-- Desktop Curated Navigation Menu -->
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#about" class="nav-link">Studio</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#transformation" class="nav-link">Transformations</a></li>
+          <li><a href="#estimator" class="nav-link">Estimator</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <!-- Navigation Actions -->
+        <div class="nav-actions">
+          <!-- Direct Studio Call Button -->
+          <a href="tel:+918299481808" class="nav-phone-chip" aria-label="Call Designterio Direct" title="Call Designterio Direct">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            <span class="phone-label">+91 8299481808</span>
+          </a>
+
+          <!-- Theme Switcher (Dark / Light) -->
+          <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle Theme" title="Toggle Theme">
+            <span id="themeIcon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+              </svg>
+            </span>
+          </button>
+
+          <!-- Book Consultation CTA -->
+          <button class="btn btn-primary btn-sm open-consult-modal" id="navConsultBtn">
+            <span>Book Consultation</span>
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </button>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Mobile Drawer Backdrop Overlay -->
+    <div class="nav-backdrop" id="navBackdrop"></div>
+
+    <!-- Mobile Off-Canvas Drawer -->
+    <div class="nav-drawer" id="navDrawer">
+      <div class="nav-drawer-header">
+        <div class="brand-text">
+          <span class="brand-title">DESIGNTERIO</span>
+          <span class="brand-sub">ARCHITECTURAL ATELIER</span>
+        </div>
+        <button class="nav-close-btn" id="navCloseBtn" aria-label="Close Navigation Menu">&times;</button>
+      </div>
+
+      <ul class="nav-drawer-menu">
+        <li><a href="#home" class="drawer-nav-link active">Home</a></li>
+        <li><a href="#about" class="drawer-nav-link">Studio & Philosophy</a></li>
+        <li><a href="#services" class="drawer-nav-link">Services Suite</a></li>
+        <li><a href="#transformation" class="drawer-nav-link">Before & After</a></li>
+        <li><a href="#estimator" class="drawer-nav-link">Interior Cost Estimator</a></li>
+        <li><a href="#portfolio" class="drawer-nav-link">Selected Portfolio</a></li>
+        <li><a href="#materials" class="drawer-nav-link">Noble Materials</a></li>
+        <li><a href="#process" class="drawer-nav-link">4-Step Methodology</a></li>
+        <li><a href="#testimonials" class="drawer-nav-link">Client Reviews</a></li>
+        <li><a href="#contact" class="drawer-nav-link">Contact & Inquiries</a></li>
+      </ul>
+
+      <div class="nav-drawer-footer">
+        <a href="tel:+918299481808" class="nav-drawer-phone">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          <span>+91 8299481808</span>
+        </a>
+        <button class="btn btn-primary btn-sm open-consult-modal" style="width: 100%;">
+          <span>Book Free Consultation</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       2. HERO SECTION
+       ========================================================================= -->
+  <section class="hero" id="home">
+    <div class="hero-bg-accent"></div>
+    <div class="container">
+      <div class="hero-grid">
+
+        <!-- Left Column: Copy & CTAs -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            <span>Premier Interior Architecture & Atelier</span>
+          </div>
+
+          <h1 class="hero-title">
+            Crafting Spaces That Whisper <em>Timeless Luxury</em>
+          </h1>
+
+          <p class="hero-desc">
+            Designterio Pvt. Ltd translates architectural visions into serene, opulent residences and high-performance
+            commercial spaces. Turnkey precision, bespoke Italian finishes, and uncompromised craftsmanship.
+          </p>
+
+          <div class="hero-cta-group">
+            <button class="btn btn-primary open-consult-modal">
+              <span>Book Private Consultation</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </button>
+
+            <a href="#estimator" class="btn btn-outline">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="4" y="2" width="16" height="20" rx="2" />
+                <line x1="8" y1="6" x2="16" y2="6" />
+                <line x1="16" y1="14" x2="16" y2="18" />
+                <path d="M16 10h.01M12 10h.01M8 10h.01M12 14h.01M8 14h.01M12 18h.01M8 18h.01" />
+              </svg>
+              <span>Instant Cost Estimator</span>
+            </a>
+          </div>
+
+          <!-- Live Numbers Ribbon -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-number">150<span>+</span></div>
+              <div class="stat-label">Homes Handed Over</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">10<span>+</span></div>
+              <div class="stat-label">Years of Mastery</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">100<span>%</span></div>
+              <div class="stat-label">On-Time Turnkey Promise</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Visual Showcase -->
+        <div class="hero-visual-wrapper">
+          <div class="hero-image-card">
+            <img src="assets/images/hero-penthouse.jpg" alt="Belgrave Penthouse Interior Design by Designterio Pvt Ltd"
+              loading="eager">
+            <div class="hero-floating-badge">
+              <div>
+                <h3 class="hfb-title">The Belgrave Penthouse</h3>
+                <span class="hfb-meta">4,800 sq.ft • Architectural Living Salon</span>
+              </div>
+              <a href="#portfolio" class="hfb-action" aria-label="View Belgrave Penthouse Details">
+                <span>View Project</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M7 17l9.2-9.2M17 17V8H8" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       3. ATELIER DISTINCTIONS & CREDENTIALS
+       ========================================================================= -->
+  <section class="distinctions-section">
+    <div class="container">
+      <div class="distinctions-grid">
+        <div class="distinction-item">
+          <div class="distinction-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+          </div>
+          <div class="distinction-content">
+            <h4>Turnkey Mastery</h4>
+            <p>Single-point execution from bare shell to final interior styling</p>
+          </div>
+        </div>
+
+        <div class="distinction-item">
+          <div class="distinction-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+            </svg>
+          </div>
+          <div class="distinction-content">
+            <h4>German CNC & Italian Slabs</h4>
+            <p>Precision joinery & directly curated European marble quarries</p>
+          </div>
+        </div>
+
+        <div class="distinction-item">
+          <div class="distinction-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <div class="distinction-content">
+            <h4>10-Year Warranty</h4>
+            <p>Comprehensive post-handover structural, hardware & joinery assurance</p>
+          </div>
+        </div>
+
+        <div class="distinction-item">
+          <div class="distinction-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M12 6v6l4 2"/>
+            </svg>
+          </div>
+          <div class="distinction-content">
+            <h4>Guaranteed Handover</h4>
+            <p>Strict timeline adherence with zero vendor price escalation</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       4. ABOUT & STUDIO PHILOSOPHY
+       ========================================================================= -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+
+        <!-- Left: Image Collage -->
+        <div class="about-images-col">
+          <div class="about-main-img-card">
+            <img src="assets/images/about-studio.jpg" alt="Designterio Architectural Design Studio Team" loading="lazy">
+          </div>
+
+          <div class="about-overlap-card">
+            <img src="assets/images/materials-palette.jpg" alt="Curated Interior Design Materials Moodboard"
+              loading="lazy">
+          </div>
+
+          <div class="about-experience-badge">
+            <div class="aeb-number">10+</div>
+            <div class="aeb-text">Years of Architectural Excellence</div>
+          </div>
+        </div>
+
+        <!-- Right: Studio Vision -->
+        <div class="about-text-col">
+          <div class="section-tag">Studio Philosophy</div>
+          <h2 class="section-title">Where Quiet Luxury Meets <span class="accent">Precision Engineering</span></h2>
+          <p class="section-desc" style="margin-bottom: 2rem;">
+            At Designterio Pvt. Ltd, we reject ephemeral fads in favor of enduring proportion, exquisite materiality,
+            and bespoke ergonomics. Every line drawn by our architects balances serenity, functionality, and unyielding
+            opulence.
+          </p>
+
+          <div class="about-features-list">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                </svg>
+              </div>
+              <h4 class="feature-title">Turnkey Peace of Mind</h4>
+              <p class="feature-desc">From civil masonry and HVAC ducting to custom Italian upholstery—we manage
+                everything end-to-end.</p>
+            </div>
+
+            <div class="feature-box">
+              <div class="feature-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M12 6v6l4 2"></path>
+                </svg>
+              </div>
+              <h4 class="feature-title">Strict Timeline Penalty</h4>
+              <p class="feature-desc">We guarantee project handover dates in our legally binding contracts with zero
+                cost escalations.</p>
+            </div>
+
+            <div class="feature-box">
+              <div class="feature-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
+              </div>
+              <h4 class="feature-title">10-Year Warranty</h4>
+              <p class="feature-desc">Certified marine-grade substrates, German Blum hardware, and anti-termite
+                treatment warranties.</p>
+            </div>
+
+            <div class="feature-box">
+              <div class="feature-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                </svg>
+              </div>
+              <h4 class="feature-title">Photorealistic 3D VR</h4>
+              <p class="feature-desc">Walk inside your future residence in immersive 4K virtual reality before a single
+                brick is touched.</p>
+            </div>
+          </div>
+
+          <button class="btn btn-primary open-consult-modal">
+            <span>Consult Our Senior Architect</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       5. INTERACTIVE BEFORE & AFTER TRANSFORMATION SLIDER
+       ========================================================================= -->
+  <section class="section transformation-section" id="transformation">
+    <div class="container">
+
+      <div class="section-header-center">
+        <div class="section-tag">The Metamorphosis</div>
+        <h2 class="section-title">Witness The <span class="accent">Transformation</span></h2>
+        <p class="section-desc">
+          Drag the interactive slider to reveal how Designterio transforms bare, cold concrete structural shells into
+          haute architectural sanctuaries.
+        </p>
+      </div>
+
+      <!-- Before / After Draggable Container -->
+      <div class="before-after-container" id="comparisonContainer">
+
+        <div class="comparison-wrapper">
+          <!-- Before Background Image -->
+          <img src="assets/images/before-renovation.jpg" alt="Unfinished raw concrete apartment before renovation"
+            class="comparison-image">
+          <span class="slider-label label-before">Raw Shell (Before)</span>
+
+          <!-- After Clipped Image -->
+          <div class="comparison-after-wrapper" id="afterWrapper">
+            <img src="assets/images/after-renovation.jpg"
+              alt="Transformed luxury penthouse lounge after Designterio makeover" class="comparison-image">
+            <span class="slider-label label-after">Designterio Handover (After)</span>
+          </div>
+
+          <!-- Draggable Divider Handle -->
+          <div class="comparison-slider-handle" id="sliderHandle">
+            <div class="handle-button" aria-label="Drag to compare before and after">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M8 7l-5 5 5 5M16 7l5 5-5 5" />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Transformation Meta Bar -->
+      <div class="transformation-meta-bar">
+        <div class="tmb-info">
+          <h4>The Sky-Lounge Metamorphosis • Khar West</h4>
+          <p>Complete civil overhaul, microcement flooring, fluted oak architectural wall, and hidden pivot doors.</p>
+        </div>
+        <div class="tmb-stats">
+          <div class="tmb-stat-unit">
+            <div class="tmb-stat-val">65 Days</div>
+            <div class="tmb-stat-lbl">Total Turnaround</div>
+          </div>
+          <div class="tmb-stat-unit">
+            <div class="tmb-stat-val">3,200 sq.ft</div>
+            <div class="tmb-stat-lbl">Carpet Area</div>
+          </div>
+          <div class="tmb-stat-unit">
+            <div class="tmb-stat-val">Zero Delay</div>
+            <div class="tmb-stat-lbl">Client Guarantee</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       6. SERVICES SUITE
+       ========================================================================= -->
+  <section class="section services-section" id="services">
+    <div class="container">
+
+      <div class="section-header-center">
+        <div class="section-tag">Comprehensive Offerings</div>
+        <h2 class="section-title">Our Architecture & <span class="accent">Design Services</span></h2>
+        <p class="section-desc">
+          Tailored design disciplines executed with obsessive attention to proportion, ergonomics, and material luxury.
+        </p>
+      </div>
+
+      <div class="services-grid">
+
+        <!-- Service 1 -->
+        <div class="service-card">
+          <div>
+            <div class="service-num">01</div>
+            <div class="service-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                <polyline points="9 22 9 12 15 12 15 22" />
+              </svg>
+            </div>
+            <h3 class="service-title">Full Turnkey Residential</h3>
+            <p class="service-desc">
+              Comprehensive single-point execution from bare shell to final interior styling. We handle civil works,
+              plumbing, bespoke joinery, false ceiling, and acoustic insulation.
+            </p>
+            <ul class="service-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                Complete civil & structural coordination
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                Architectural lighting & automation
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                White-glove deep clean before keys handover
+              </li>
+            </ul>
+          </div>
+          <button class="service-action open-consult-modal">
+            <span>Inquire Turnkey</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card">
+          <div>
+            <div class="service-num">02</div>
+            <div class="service-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="18" rx="2" />
+                <line x1="2" y1="9" x2="22" y2="9" />
+                <line x1="12" y1="9" x2="12" y2="21" />
+              </svg>
+            </div>
+            <h3 class="service-title">Modular Kitchens & Wardrobes</h3>
+            <p class="service-desc">
+              Ergonomically engineered culinary workstations and walk-in wardrobe suites. Fabricated with German CNC
+              precision, anti-scratch acrylics, and synchronized soft-close hardware.
+            </p>
+            <ul class="service-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                Blum & Hettich Lifetime Warranty fittings
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                Natural quartzite & sintered stone surfaces
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                Backlit fluted glass & sensor LED wardrobe systems
+              </li>
+            </ul>
+          </div>
+          <button class="service-action open-consult-modal">
+            <span>Inquire Kitchens</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card">
+          <div>
+            <div class="service-num">03</div>
+            <div class="service-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+              </svg>
+            </div>
+            <h3 class="service-title">3D VR Visualization & Walkthrough</h3>
+            <p class="service-desc">
+              Experience photorealistic 4K architectural renderings and immersive VR simulations. Review exact lighting
+              reflections, marble grain alignments, and scale before procurement.
+            </p>
+            <ul class="service-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                Photorealistic day & evening lighting passes
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                Full 360-degree virtual tour access
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                Accurate material texture and swatch matching
+              </li>
+            </ul>
+          </div>
+          <button class="service-action open-consult-modal">
+            <span>Inquire 3D Design</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card">
+          <div>
+            <div class="service-num">04</div>
+            <div class="service-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
+                <line x1="12" y1="22.08" x2="12" y2="12" />
+              </svg>
+            </div>
+            <h3 class="service-title">Commercial & Executive Spaces</h3>
+            <p class="service-desc">
+              High-end executive boardrooms, corporate headquarters, and luxury hospitality destinations. Engineered for
+              peak team collaboration, acoustic dampening, and refined brand presence.
+            </p>
+            <ul class="service-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                Acoustic ceiling baffles & timber slat walls
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                Custom bespoke reception & conference tables
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                Smart climate & automated conference tech
+              </li>
+            </ul>
+          </div>
+          <button class="service-action open-consult-modal">
+            <span>Inquire Commercial</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="service-card">
+          <div>
+            <div class="service-num">05</div>
+            <div class="service-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+              </svg>
+            </div>
+            <h3 class="service-title">Haute Decor & Bespoke Furniture</h3>
+            <p class="service-desc">
+              Custom-crafted furniture designed exclusively for your space. Bouclé loungers, monolithic marble consoles,
+              organic hand-knotted rugs, and curated art collection curation.
+            </p>
+            <ul class="service-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                Artisan joinery & hand-stitched leather
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                Sculptural lighting & bronze fixtures
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                Imported European fabrics & wall coverings
+              </li>
+            </ul>
+          </div>
+          <button class="service-action open-consult-modal">
+            <span>Inquire Furniture</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="service-card">
+          <div>
+            <div class="service-num">06</div>
+            <div class="service-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+              </svg>
+            </div>
+            <h3 class="service-title">Renovation & Architectural Remodel</h3>
+            <p class="service-desc">
+              Breathe fresh life into vintage apartments or outdated residences. We optimize layout efficiency,
+              eliminate unwanted partition columns, and integrate cutting-edge MEP infrastructure.
+            </p>
+            <ul class="service-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                Civil demolition & structural reinforcement
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                Plumbing & electrical rerouting
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12" />
+                </svg>
+                High-performance acoustic double glazing
+              </li>
+            </ul>
+          </div>
+          <button class="service-action open-consult-modal">
+            <span>Inquire Remodel</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       7. INTERACTIVE INTERIOR BUDGET & TIMELINE ESTIMATOR
+       ========================================================================= -->
+  <section class="section estimator-section" id="estimator">
+    <div class="container">
+
+      <div class="section-header-center">
+        <div class="section-tag">Instant Transparency</div>
+        <h2 class="section-title">Interior Budget & <span class="accent">Timeline Estimator</span></h2>
+        <p class="section-desc">
+          Plan your project with clarity. Select your property configuration and finishes to receive an instantaneous
+          estimate and delivery timeline.
+        </p>
+      </div>
+
+      <div class="estimator-card">
+        <div class="estimator-grid">
+
+          <!-- Left: User Selection Controls -->
+          <div class="estimator-controls">
+
+            <!-- Step 1: Property Type -->
+            <div class="estimator-step">
+              <span class="step-label">Step 1 • Select Property Type</span>
+              <div class="option-chips">
+                <button class="chip-option" data-estimator-type="property" data-value="2bhk">2 BHK Flat</button>
+                <button class="chip-option active" data-estimator-type="property" data-value="3bhk">3 BHK Luxury
+                  Apartment</button>
+                <button class="chip-option" data-estimator-type="property" data-value="4bhk">4 BHK / Villa</button>
+                <button class="chip-option" data-estimator-type="property" data-value="commercial">Commercial
+                  Space</button>
+              </div>
+            </div>
+
+            <!-- Step 2: Scope of Work -->
+            <div class="estimator-step">
+              <span class="step-label">Step 2 • Scope of Execution</span>
+              <div class="option-chips">
+                <button class="chip-option" data-estimator-type="scope" data-value="kitchen">Modular Kitchen &
+                  Wardrobes</button>
+                <button class="chip-option" data-estimator-type="scope" data-value="living">Living & Dining
+                  Salon</button>
+                <button class="chip-option active" data-estimator-type="scope" data-value="full">Complete Turnkey
+                  Home</button>
+                <button class="chip-option" data-estimator-type="scope" data-value="luxury">Ultra-Luxury Bespoke
+                  Handover</button>
+              </div>
+            </div>
+
+            <!-- Step 3: Finish Tier -->
+            <div class="estimator-step">
+              <span class="step-label">Step 3 • Finish & Material Quality</span>
+              <div class="option-chips">
+                <button class="chip-option" data-estimator-type="finish" data-value="standard">Elegance
+                  Essential</button>
+                <button class="chip-option active" data-estimator-type="finish" data-value="signature">Signature
+                  Contemporary</button>
+                <button class="chip-option" data-estimator-type="finish" data-value="royal">Royal Bespoke
+                  Atelier</button>
+              </div>
+            </div>
+
+            <!-- Step 4: Carpet Area Slider -->
+            <div class="estimator-step">
+              <div class="range-slider-wrapper">
+                <div class="range-slider-header">
+                  <span class="step-label" style="margin-bottom: 0;">Step 4 • Carpet Area</span>
+                  <span class="range-slider-val" id="areaDisplay">1,650 sq.ft</span>
+                </div>
+                <input type="range" class="luxury-range" id="areaSlider" min="650" max="5000" step="50" value="1650">
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right: Dynamic Receipt & Calculations -->
+          <div class="estimator-result-panel">
+            <h3 class="erp-title">Projected Estimate</h3>
+
+            <div class="price-display-box">
+              <div class="price-range-text">
+                <span id="estPriceMin">₹28.5 Lakhs</span> - <span id="estPriceMax">₹34.8 Lakhs</span>
+              </div>
+              <div class="price-subtext" id="estPriceNumeric">₹28,50,000 – ₹34,80,000 (Estimated all-inclusive turnkey range)</div>
+            </div>
+
+            <div class="breakdown-list">
+              <div class="breakdown-row">
+                <span>Selected Configuration:</span>
+                <span id="estSummaryProperty">3 BHK Luxury Apartment</span>
+              </div>
+              <div class="breakdown-row">
+                <span>Execution Scope:</span>
+                <span id="estSummaryScope">Complete Turnkey Home</span>
+              </div>
+              <div class="breakdown-row">
+                <span>Avg Finishing Rate:</span>
+                <span id="estSummaryRate">₹1,950 / sq.ft</span>
+              </div>
+              <div class="breakdown-row">
+                <span>Estimated Handover:</span>
+                <span id="estTimeline" style="color: var(--color-accent); font-weight: 700;">55 - 70 Days</span>
+              </div>
+              <div class="breakdown-row">
+                <span>Warranty Included:</span>
+                <span style="color: #4ade80;">10 Years Covered</span>
+              </div>
+            </div>
+
+            <button class="btn btn-primary" id="claimEstimateBtn" style="width: 100%;">
+              <span>Lock In This Estimate & Consult</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </button>
+            <p style="text-align: center; font-size: 0.75rem; color: var(--text-muted); margin-top: 0.75rem;">
+              *Estimates are provisional. Final quote generated after complimentary on-site architectural laser scan.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       8. CURATED PORTFOLIO GALLERY (FILTERABLE)
+       ========================================================================= -->
+  <section class="section portfolio-section" id="portfolio">
+    <div class="container">
+
+      <div class="section-header-center">
+        <div class="section-tag">Featured Ateliers</div>
+        <h2 class="section-title">Selected Works of <span class="accent">Designterio</span></h2>
+        <p class="section-desc">
+          Browse through our residential penthouses, minimalist kitchens, serene suites, and corporate headquarters.
+        </p>
+      </div>
+
+      <!-- Filter Controls -->
+      <div class="portfolio-filters">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="living">Living Salons</button>
+        <button class="filter-btn" data-filter="kitchen">Kitchens</button>
+        <button class="filter-btn" data-filter="bedroom">Master Suites</button>
+        <button class="filter-btn" data-filter="commercial">Commercial</button>
+        <button class="filter-btn" data-filter="bathroom">Spa Bathrooms</button>
+      </div>
+
+      <!-- Grid -->
+      <div class="portfolio-grid">
+
+        <!-- Project 1 -->
+        <div class="portfolio-item" data-category="living" data-id="penthouse">
+          <div class="portfolio-img-box">
+            <img src="assets/images/hero-penthouse.jpg" alt="The Belgrave Penthouse Suite Living Room" loading="lazy">
+            <div class="portfolio-overlay">
+              <div class="portfolio-details">
+                <div>
+                  <div class="portfolio-tag">Residential Penthouse</div>
+                  <h4 class="portfolio-name">The Belgrave Penthouse</h4>
+                </div>
+                <button class="portfolio-quick-view-btn" aria-label="View Belgrave Penthouse Details">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <line x1="7" y1="17" x2="17" y2="7" />
+                    <polyline points="7 7 17 7 17 17" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="portfolio-item" data-category="kitchen" data-id="kitchen-chef">
+          <div class="portfolio-img-box">
+            <img src="assets/images/project-kitchen.jpg" alt="Florentine Minimalist Kitchen Design" loading="lazy">
+            <div class="portfolio-overlay">
+              <div class="portfolio-details">
+                <div>
+                  <div class="portfolio-tag">Modular Kitchen</div>
+                  <h4 class="portfolio-name">Florentine Minimalist Kitchen</h4>
+                </div>
+                <button class="portfolio-quick-view-btn" aria-label="View Florentine Kitchen Details">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <line x1="7" y1="17" x2="17" y2="7" />
+                    <polyline points="7 7 17 7 17 17" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="portfolio-item" data-category="bedroom" data-id="bedroom-suite">
+          <div class="portfolio-img-box">
+            <img src="assets/images/project-bedroom.jpg" alt="Serene Haven Master Suite Bedroom" loading="lazy">
+            <div class="portfolio-overlay">
+              <div class="portfolio-details">
+                <div>
+                  <div class="portfolio-tag">Master Suite</div>
+                  <h4 class="portfolio-name">Serene Haven Master Suite</h4>
+                </div>
+                <button class="portfolio-quick-view-btn" aria-label="View Serene Haven Suite Details">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <line x1="7" y1="17" x2="17" y2="7" />
+                    <polyline points="7 7 17 7 17 17" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="portfolio-item" data-category="commercial" data-id="commercial-hq">
+          <div class="portfolio-img-box">
+            <img src="assets/images/project-commercial.jpg" alt="Zenith Strategic Corporate Headquarters Office"
+              loading="lazy">
+            <div class="portfolio-overlay">
+              <div class="portfolio-details">
+                <div>
+                  <div class="portfolio-tag">Executive Commercial</div>
+                  <h4 class="portfolio-name">Zenith Strategic Headquarters</h4>
+                </div>
+                <button class="portfolio-quick-view-btn" aria-label="View Zenith Strategic HQ Details">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <line x1="7" y1="17" x2="17" y2="7" />
+                    <polyline points="7 7 17 7 17 17" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="portfolio-item" data-category="bathroom" data-id="spa-bath">
+          <div class="portfolio-img-box">
+            <img src="assets/images/project-bathroom.jpg" alt="Mineral Oasis Spa Bath Travertine Ensuite"
+              loading="lazy">
+            <div class="portfolio-overlay">
+              <div class="portfolio-details">
+                <div>
+                  <div class="portfolio-tag">Spa Bathroom</div>
+                  <h4 class="portfolio-name">Mineral Oasis Spa Bath</h4>
+                </div>
+                <button class="portfolio-quick-view-btn" aria-label="View Mineral Oasis Spa Details">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <line x1="7" y1="17" x2="17" y2="7" />
+                    <polyline points="7 7 17 7 17 17" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="portfolio-item" data-category="living" data-id="metamorphosis">
+          <div class="portfolio-img-box">
+            <img src="assets/images/after-renovation.jpg" alt="Sky Lounge Complete Apartment Transformation"
+              loading="lazy">
+            <div class="portfolio-overlay">
+              <div class="portfolio-details">
+                <div>
+                  <div class="portfolio-tag">Turnkey Transformation</div>
+                  <h4 class="portfolio-name">Sky-Lounge Metamorphosis</h4>
+                </div>
+                <button class="portfolio-quick-view-btn" aria-label="View Sky Lounge Transformation Details">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <line x1="7" y1="17" x2="17" y2="7" />
+                    <polyline points="7 7 17 7 17 17" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       9. MATERIALS & HAUTE CURATION
+       ========================================================================= -->
+  <section class="section materials-section" id="materials">
+    <div class="container">
+      <div class="materials-grid">
+
+        <!-- Left: Material Showcase -->
+        <div>
+          <div class="section-tag">Haute Curation</div>
+          <h2 class="section-title">The Alchemy of <span class="accent">Noble Materials</span></h2>
+          <p class="section-desc" style="margin-bottom: 2.5rem;">
+            A home is only as timeless as the materials embedded within its architecture. We directly curate slabs,
+            veneers, and metals from generational European quarries and mills.
+          </p>
+
+          <div class="materials-list">
+            <div class="material-card">
+              <span class="mat-badge">01</span>
+              <div class="mat-info">
+                <h4>Honed Italian Travertine & Calacatta Marble</h4>
+                <p>Natural book-matched veining sealed with breathable nano-coatings for stain immunity and silky
+                  tactile warmth.</p>
+              </div>
+            </div>
+
+            <div class="material-card">
+              <span class="mat-badge">02</span>
+              <div class="mat-info">
+                <h4>Acoustic Smoked French Oak & Walnut</h4>
+                <p>Sustainably harvested hardwoods precision-fluted for superior sound dampening and natural visual
+                  depth.</p>
+              </div>
+            </div>
+
+            <div class="material-card">
+              <span class="mat-badge">03</span>
+              <div class="mat-info">
+                <h4>PVD Titanium Champagne Brass</h4>
+                <p>Physical Vapor Deposition metal finishing that never tarnishes, rusts, or fades under coastal
+                  humidity.</p>
+              </div>
+            </div>
+
+            <div class="material-card">
+              <span class="mat-badge">04</span>
+              <div class="mat-info">
+                <h4>Tactile Bouclé, Belgian Linen & Terracotta</h4>
+                <p>Natural fiber textiles woven with organic textural weight for intimate and cozy sensory touchpoints.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Materials Flatlay Image -->
+        <div>
+          <div class="hero-image-card" style="box-shadow: var(--shadow-lg);">
+            <img src="assets/images/materials-palette.jpg" alt="Designterio Noble Materials Palette Moodboard"
+              loading="lazy">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       10. THE 4-D PROCESS METHODOLOGY
+       ========================================================================= -->
+  <section class="section process-section" id="process">
+    <div class="container">
+
+      <div class="section-header-center">
+        <div class="section-tag">The Designterio Journey</div>
+        <h2 class="section-title">Our 4-Step <span class="accent">Turnkey Methodology</span></h2>
+        <p class="section-desc">
+          A seamless, transparent journey ensuring your vision is executed on time, within budget, and without the
+          stress of managing vendors.
+        </p>
+      </div>
+
+      <div class="process-grid">
+
+        <div class="process-card">
+          <div class="process-step-num">01</div>
+          <h3 class="process-title">Discover & Scan</h3>
+          <p class="process-desc">
+            We conduct 3D millimeter-accurate laser site scans, analyze natural sun paths, and profile your lifestyle
+            requirements and functional rituals.
+          </p>
+        </div>
+
+        <div class="process-card">
+          <div class="process-step-num">02</div>
+          <h3 class="process-title">Design & VR Walkthrough</h3>
+          <p class="process-desc">
+            Our architectural atelier crafts 4K photorealistic renders and full VR models. Touch and approve physical
+            material swatch moodboards in our studio.
+          </p>
+        </div>
+
+        <div class="process-card">
+          <div class="process-step-num">03</div>
+          <h3 class="process-title">Manufacture & Civil</h3>
+          <p class="process-desc">
+            Modular joinery is pre-fabricated with German CNC machinery off-site to reduce dust and noise, while our
+            master civil teams execute onsite MEP.
+          </p>
+        </div>
+
+        <div class="process-card">
+          <div class="process-step-num">04</div>
+          <h3 class="process-title">Handover & Celebrate</h3>
+          <p class="process-desc">
+            Following a 120-point quality audit, white-glove deep clean, and styling, we deliver keys with comprehensive
+            10-year warranty documentation.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       11. CLIENT TESTIMONIALS & REVIEWS
+       ========================================================================= -->
+  <section class="section testimonials-section" id="testimonials">
+    <div class="container">
+
+      <div class="section-header-center">
+        <div class="section-tag">Client Experiences</div>
+        <h2 class="section-title">Trusted by <span class="accent">Discerning Homeowners</span></h2>
+        <p class="section-desc">
+          Hear from leaders, founders, and families who trusted Designterio Pvt. Ltd to craft their private sanctuaries.
+        </p>
+      </div>
+
+      <div class="testimonials-slider-container">
+        <div class="testimonials-track" id="testimonialsTrack">
+
+          <!-- Slide 1 -->
+          <div class="testimonial-slide active">
+            <div class="stars-rating">★★★★★</div>
+            <p class="testimonial-quote">
+              "Designterio transformed our 4,800 sq.ft duplex penthouse into an architectural masterpiece that rivals
+              any five-star resort in Milan. Their adherence to the committed 75-day timeline and precision joinery is
+              unmatched."
+            </p>
+            <div class="client-author-info">
+              <span class="client-name">Aditya & Radhika Singhania</span>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="testimonial-slide">
+            <div class="stars-rating">★★★★★</div>
+            <p class="testimonial-quote">
+              "What surprised me most was the transparency. The online estimate we generated matched the final invoice
+              almost to the rupee. No surprise vendor escalation, no headache. The modular kitchen is pure culinary
+              art."
+            </p>
+            <div class="client-author-info">
+              <span class="client-name">Dr. Kabir Mehta</span>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="testimonial-slide">
+            <div class="stars-rating">★★★★★</div>
+            <p class="testimonial-quote">
+              "Designing our corporate headquarters required balancing severe acoustic privacy with inviting warmth. The
+              Designterio team delivered a space that our board and international clients continually praise."
+            </p>
+            <div class="client-author-info">
+              <span class="client-name">Priyanka Varma</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Controls -->
+        <div class="testimonial-controls">
+          <button class="test-btn" id="testPrevBtn" aria-label="Previous Testimonial">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M15 18l-6-6 6-6" />
+            </svg>
+          </button>
+          <button class="test-btn" id="testNextBtn" aria-label="Next Testimonial">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 18l6-6-6-6" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       12. CONSULTATION INQUIRY & CONTACT SECTION
+       ========================================================================= -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+
+      <div class="contact-grid">
+
+        <!-- Left: Studio Details -->
+        <div class="contact-info-col">
+          <div class="section-tag">Direct Atelier Inquiry</div>
+          <h3 class="section-title" style="font-size: 2.4rem;">Let’s Design Your <span class="accent">Masterpiece</span>
+          </h3>
+          <p class="section-desc" style="margin-bottom: 2rem;">
+            Schedule a private consultation at our design studio or invite our lead architects for a complimentary
+            on-site appraisal.
+          </p>
+
+          <div class="contact-meta-items">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div>
+                <div class="ci-title">Studio Headquarters</div>
+                <div class="ci-val">Designterio Pvt. Ltd</div>
+                <div class="ci-val">Lucknow, Uttar Pradesh</div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                  </path>
+                </svg>
+              </div>
+              <div>
+                <div class="ci-title">Direct Studio Number</div>
+                <div class="ci-val">+91 8299481808</div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div>
+                <div class="ci-title">Consultation Inquiries</div>
+                <div class="ci-val">designteriopvtltd@gmail.com</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Inquiry Form -->
+        <div class="contact-form-col">
+          <form id="consultationForm">
+
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label for="clientName">Full Name *</label>
+                <input type="text" id="clientName" class="form-input" placeholder="e.g. Alok Sharma" required>
+              </div>
+
+              <div class="form-group">
+                <label for="clientPhone">Contact Number *</label>
+                <input type="tel" id="clientPhone" class="form-input" placeholder="+91 98765 43210" required>
+              </div>
+            </div>
+
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label for="clientEmail">Email Address *</label>
+                <input type="email" id="clientEmail" class="form-input" placeholder="name@domain.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="clientProperty">Property Type</label>
+                <select id="clientProperty" class="form-select">
+                  <option value="2bhk">2 BHK Apartment</option>
+                  <option value="3bhk" selected>3 BHK Apartment</option>
+                  <option value="4bhk">4 BHK / Duplex</option>
+                  <option value="villa">Independent Villa / Bungalow</option>
+                  <option value="commercial">Commercial / Corporate Office</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label for="clientArea">Estimated Area (sq.ft)</label>
+                <input type="number" id="clientArea" class="form-input" placeholder="e.g. 1850">
+              </div>
+
+              <div class="form-group">
+                <label for="clientDate">Preferred Consultation Date</label>
+                <input type="date" id="clientDate" class="form-input">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="clientMessage">Project Vision or Specific Requirements</label>
+              <textarea id="clientMessage" rows="4" class="form-textarea"
+                placeholder="Tell us about your space, preferred aesthetics (e.g. Minimalist, Warm Luxury, Japandi), or timelines..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <span>Request Private Consultation</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </button>
+
+            <p style="text-align: center; font-size: 0.78rem; color: var(--text-muted); margin-top: 1rem;">
+              Your information is strictly protected under our client confidentiality charter.
+            </p>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       13. FOOTER
+       ========================================================================= -->
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top-grid">
+
+        <!-- Brand Info -->
+        <div class="footer-brand">
+          <a href="#home" class="brand-logo" aria-label="Designterio Home">
+            <div class="brand-symbol"></div>
+            <div class="brand-text">
+              <span class="brand-title" style="color:#ffffff;">DESIGNTERIO</span>
+              <span class="brand-sub">PVT. LTD</span>
+            </div>
+          </a>
+          <p>
+            An award-winning interior architecture studio dedicated to timeless design, German-engineered joinery, and
+            turnkey residential excellence.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h5>Architecture</h5>
+          <ul class="footer-links">
+            <li><a href="#about">The Atelier</a></li>
+            <li><a href="#transformation">Before & After</a></li>
+            <li><a href="#services">Services Suite</a></li>
+            <li><a href="#portfolio">Selected Works</a></li>
+            <li><a href="#estimator">Cost Calculator</a></li>
+          </ul>
+        </div>
+
+        <!-- Specialties -->
+        <div class="footer-col">
+          <h5>Disciplines</h5>
+          <ul class="footer-links">
+            <li><a href="#services">Turnkey Penthouses</a></li>
+            <li><a href="#services">Bespoke Kitchens</a></li>
+            <li><a href="#services">Acoustic Suites</a></li>
+            <li><a href="#services">VR Spatial Previews</a></li>
+            <li><a href="#materials">Noble Materials</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter / Journal -->
+        <div class="footer-col footer-newsletter">
+          <h5>Private Journal</h5>
+          <p style="font-size: 0.85rem; color: #9da3af; margin-bottom: 1rem;">
+            Receive our quarterly architectural lookbook and invitations to private design salons.
+          </p>
+          <form id="newsletterForm">
+            <input type="email" placeholder="Enter your email address" required>
+            <button type="submit" class="btn btn-outline btn-sm" style="width: 100%;">
+              <span>Subscribe to Journal</span>
+            </button>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div>
+          © 2026 Designterio Pvt. Ltd. All rights reserved. Registered Interior Architectural Practice.
+        </div>
+        <div class="footer-bottom-links">
+          <a href="#home">Privacy Charter</a>
+          <a href="#home">Terms of Engagement</a>
+          <a href="#home">Warranty Policy</a>
+          <a href="#home">Sitemap</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       14. PROJECT QUICK VIEW MODAL
+       ========================================================================= -->
+  <div class="modal-backdrop" id="projectModal">
+    <div class="modal-box">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close Modal">&times;</button>
+      <div class="modal-content">
+        <div style="border-radius: var(--radius-sm); overflow: hidden; margin-bottom: 1.5rem; height: 380px;">
+          <img id="modalProjectImg" src="" alt="Project Preview" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+
+        <div
+          style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: gap; margin-bottom: 1rem;">
+          <div>
+            <span id="modalProjectTag" class="section-tag" style="margin-bottom: 0.4rem;"></span>
+            <h3 id="modalProjectTitle" style="font-family: var(--font-serif); font-size: 2rem;"></h3>
+          </div>
+          <button class="btn btn-primary btn-sm open-consult-modal">
+            <span>Book Consultation</span>
+          </button>
+        </div>
+
+        <p id="modalProjectDesc"
+          style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.7; margin-bottom: 1.5rem;"></p>
+
+        <div
+          style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1.25rem; padding-top: 1.25rem; border-top: 1px solid var(--border-light);">
+          <div>
+            <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--color-accent); font-weight: 600;">
+              Carpet Area</div>
+            <div id="modalProjectArea"
+              style="font-family: var(--font-display); font-weight: 700; color: var(--text-primary); margin-top: 0.2rem;">
+            </div>
+          </div>
+          <div>
+            <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--color-accent); font-weight: 600;">
+              Location</div>
+            <div id="modalProjectLocation" style="font-size: 0.9rem; color: var(--text-primary); margin-top: 0.2rem;">
+            </div>
+          </div>
+          <div>
+            <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--color-accent); font-weight: 600;">
+              Turnaround</div>
+            <div id="modalProjectTimeline" style="font-size: 0.9rem; color: var(--text-primary); margin-top: 0.2rem;">
+            </div>
+          </div>
+        </div>
+
+        <div
+          style="margin-top: 1.25rem; padding: 1rem; background: var(--bg-tertiary); border-radius: var(--radius-sm); border-left: 3px solid var(--color-accent);">
+          <div
+            style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); font-weight: 600; margin-bottom: 0.25rem;">
+            Key Curated Materials:</div>
+          <div id="modalProjectMaterials" style="font-size: 0.88rem; color: var(--text-primary); font-style: italic;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       15. CONSULTATION BOOKING MODAL
+       ========================================================================= -->
+  <div class="modal-backdrop" id="consultationModal">
+    <div class="modal-box" style="max-width: 640px;">
+      <button class="modal-close-btn" id="consultModalClose" aria-label="Close Modal">&times;</button>
+      <div class="modal-content">
+        <div class="section-tag" style="margin-bottom: 0.5rem;">Private Atelier Appointment</div>
+        <h3 style="font-family: var(--font-serif); font-size: 2rem; margin-bottom: 0.5rem;">Book Your Architectural
+          Consultation</h3>
+        <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1.75rem;">
+          Connect directly with Designterio's principal architects to review floorplans, spatial layouts, and material
+          samples.
+        </p>
+
+        <form id="modalConsultationForm">
+          <div class="form-group">
+            <label for="modalName">Full Name *</label>
+            <input type="text" id="modalName" class="form-input" placeholder="e.g. Devendra Verma" required>
+          </div>
+
+          <div class="form-grid-2">
+            <div class="form-group">
+              <label for="modalPhone">Phone Number *</label>
+              <input type="tel" id="modalPhone" class="form-input" placeholder="+91 98200 12345" required>
+            </div>
+            <div class="form-group">
+              <label for="modalEmail">Email Address *</label>
+              <input type="email" id="modalEmail" class="form-input" placeholder="devendra@outlook.com" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="modalReqInput">Project Details / Pre-filled Plan</label>
+            <textarea id="modalReqInput" rows="3" class="form-textarea"
+              placeholder="3 BHK, Modular Kitchen, Living Room renovation..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%;">
+            <span>Confirm Consultation Appointment</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       16. FLOATING ACTIONS & TOAST
+       ========================================================================= -->
+  <div class="floating-actions">
+    <!-- Quick WhatsApp / Phone Contact -->
+    <a href="tel:+918299481808" class="fab-btn" aria-label="Call Designterio Atelier">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path
+          d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+      </svg>
+    </a>
+
+    <!-- Back to Top Button -->
+    <button class="fab-btn back-to-top" id="backToTopBtn" aria-label="Scroll to top">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <polyline points="18 15 12 9 6 15" />
+      </svg>
+    </button>
+  </div>
+
+  <!-- Toast Notification Notification -->
+  <div class="toast-container">
+    <div class="toast" id="toast">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+        style="color: var(--color-accent); flex-shrink: 0;">
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+      </svg>
+      <span id="toastMsg">Inquiry sent successfully!</span>
+    </div>
+  </div>
+
+  <!-- JavaScript Engine -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
